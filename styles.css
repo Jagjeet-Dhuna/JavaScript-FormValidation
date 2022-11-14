@@ -2,9 +2,9 @@ body {
     background: linear-gradient(156deg, #358daf 0%, #0c9ea3 84%);
     color:#4c5c63;
     font-family: Cascadia Code, serif;
+    text-align: center;
 }
 
-body home.html{}
 .container {
     background-color: #ffffff;
     display: grid;
@@ -82,8 +82,11 @@ a {
 }
 
 .home {
-    background: #272c2e
+    background: #f9f9f9;
+    font-size: 25px;
+    padding-top: 75px;
 }
+
 h2 {
     color: #71d5ee;
     font-size: 20px;
