@@ -28,6 +28,7 @@ form.addEventListener('submit', (e) => {
     } else (messages.push('Invalid email'))
 
     //username errors
+
     if (username.value === '' || username.value == null, username.value.length <= 2) {
         messages.push('Username must contain more 3 or more characters')
         } else if (username.value.length >= 16) {
@@ -47,10 +48,8 @@ form.addEventListener('submit', (e) => {
     if (isValid1 && isValid2 && isValid3 && isValid4 == true){
         location.replace("./success.html")
     }
-    //location.replace("./home.html")
-    //messages.push('SUCCESS!')
     
-    // error message thing
+    // ------------------------------------------------------------ //
     if (messages.length >0) {
         e.preventDefault()
         errorElement.innerText = messages.join(` | `)
