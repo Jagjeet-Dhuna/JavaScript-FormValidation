@@ -4,6 +4,7 @@ This project demonstrates how to perform form validation using JavaScript. It in
 
 ![Note the screen capture was recorded in 2440x1440](https://user-images.githubusercontent.com/48265165/201705837-b0ff809a-7d95-4f9f-950d-2a0d56d1787e.gif)
 
+> Live preview: https://jagjeet-dhuna.github.io/JavaScript-FormValidation/
 ## Features
 
 - Validates the form inputs in real-time as the user interacts with the form.
